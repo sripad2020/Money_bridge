@@ -1,0 +1,68 @@
+{
+  "amounts": [
+    {
+      "input": "1",
+      "paise": 100,
+      "hex": "0000000064"
+    },
+    {
+      "input": "0.01",
+      "paise": 1,
+      "hex": "0000000001"
+    },
+    {
+      "input": "0.5",
+      "paise": 50,
+      "hex": "0000000032"
+    },
+    {
+      "input": "123.45",
+      "paise": 12345,
+      "hex": "0000003039"
+    },
+    {
+      "input": "500",
+      "paise": 50000,
+      "hex": "000000c350"
+    },
+    {
+      "input": "10995116277.75",
+      "paise": 1099511627775,
+      "hex": "ffffffffff"
+    }
+  ],
+  "payee_ids": [
+    {
+      "phone": "+919876543210",
+      "id": "30be0a60abadc0ff"
+    },
+    {
+      "phone": "+14155550100",
+      "id": "eeaff35f69ea38b4"
+    }
+  ],
+  "records": [
+    {
+      "device_id": 72623859790382856,
+      "counter": 1,
+      "amount_paise": 12345,
+      "payee_id": 3512256169708994815,
+      "timestamp": 1793000000,
+      "expiry": 1795592000,
+      "prev_hash": "00112233445566778899aabbccddeeff",
+      "signed_hex": "01010203040506070800000001000000303930be0a60abadc0ff6adf02406b068f4000112233445566778899aabbccddeeff",
+      "hash_zero_sig": "916c65f11f2af5543d30ce3537c5279b"
+    },
+    {
+      "device_id": 9223372036854775807,
+      "counter": 4294967295,
+      "amount_paise": 1099511627775,
+      "payee_id": 18446744073709551615,
+      "timestamp": 0,
+      "expiry": 4294967295,
+      "prev_hash": "ffffffffffffffffffffffffffffffff",
+      "signed_hex": "017fffffffffffffffffffffffffffffffffffffffffffffffff00000000ffffffffffffffffffffffffffffffffffffffff",
+      "hash_zero_sig": "c74477ed32e8815a25b926ffdf3cca00"
+    }
+  ]
+}
